@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color :azure;
+}
+
+h1 {
+    font-family: krok, sans-serif;
+    color: azure;
+    align-self: center;
+    padding-right: 115px;
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-family: krok, sans-serif;
+    color: azure;
+    align-self: center;
+    font-size: 2.75em;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(9, 29, 32);
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(187, 158, 165);
+    width: 100vw;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aka{
+list-style-type: none;
+color: rgb(9, 29, 32);
+padding-left: 20px;
+font-size: 1em;
+font-family: krok, sans-serif;
+
+}
+
+.img-div {
+    flex-basis: auto;    
+}
+
+.tribute-info {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(119, 117, 140);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute-dates {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(119, 117, 140);
+    width: 100vw;
+    position: relative;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.li {text-decoration: line-through  rgb(9, 29, 32);}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 77%;
+    max-height: 100%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(178, 133, 147);
+    width: 100vw;
+    height: 525px;
+   justify-content: center;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.by {
+    background-color: rgb(201, 115, 132);
+    width: 110px;
+    height: 110px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 29, 32);
+    width: 100vw;
+    height: 280px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.img-foot {
+position: absolute;
+margin-right: 50px;
+}
+
+#tribute-link {
+    padding-left: 30px;
+    padding-bottom: 25px;
+    line-height: 40px;
+}
+
+a {
+    color: azure;
+}
+
+a:hover, a:active {
+    color: rgb(201, 115, 132);
+}
+
+
+
+h4 {font-family: krok, sans-serif;
+    color: azure;
+    font-size: 1.75em;
+    padding: 15px;
+}
+
+h3 {
+    font-family: krok, sans-serif;
+    color: azure;
+    align-self: center;
+    font-size: 2em;
+}
+
+
