@@ -117,28 +117,42 @@ font-family: krok, sans-serif;
     background-color: rgb(201, 115, 132);
     width: 110px;
     height: 110px;
+    
+}
+
+.by img {
+    width: 100px;
+    align-items: center;
 }
 
 
 .footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(9, 29, 32);
     width: 100vw;
     height: 280px;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around
 }
 
 .img-foot {
+display: flex;
+flex-direction: row;
 position: absolute;
-margin-right: 50px;
+align-self: flex-end;
+padding-left: 55px;
+
 }
 
-#tribute-link {
-    padding-left: 30px;
+.links {
+    padding-left: 100px;
     padding-bottom: 25px;
+    padding-top: 40px;
     line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 a {
